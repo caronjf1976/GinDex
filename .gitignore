@@ -1,0 +1,17 @@
+# Ne pas envoyer la base de données de test
+gindex.db
+
+# Ne pas envoyer ta configuration personnelle
+config.txt
+
+# Dossiers Python temporaires
+__pycache__/
+*.pyc
+# Ignorer le fichier de configuration contenant le token
+.env
+config.ini
+secrets.json
+
+# Ignorer les dossiers de dépendances (optionnel mais recommandé)
+node_modules/
+__pycache__/
