@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="gindex_logo.png" width="200" title="Logo GinDex">
+</p>
 # 🍸 GinDex
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
