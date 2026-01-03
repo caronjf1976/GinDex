@@ -1,28 +1,35 @@
-🍸 GinDex
+# 🍸 GinDex
 
-GinDex est un moteur de recherche local léger et performant qui permet d'indexer le contenu de vos fichiers PDF et TXT à travers plusieurs sources de stockage. Que vos documents soient sur votre disque principal, une partition d'archive ou une clé USB, GinDex les retrouve instantanément.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-🚀 Pourquoi GinDex ?
-   - Multi-Sources : Indexez plusieurs dossiers simultanément via un fichier de configuration simple.
-   - Recherche Intelligente : Grâce à SQLite FTS5, cherchez des mots-clés à l'intérieur même des documents et visualisez un extrait du contenu.
-   - Rapidité Linux : Conçu spécifiquement pour l'écosystème Ubuntu/Debian avec intégration de xdg-open pour une ouverture immédiate des fichiers.
+## 🇫🇷 Français
+**GinDex** est un outil de recherche et d'indexation rapide conçu spécifiquement pour l'environnement **Linux Mint 22.2 (zara)**. Alliant esthétique et performance, il permet de retrouver vos fichiers en un clin d'œil.
 
-🛠️ Installation
-   1. Dépendances : Installez la bibliothèque de traitement PDF :
-        #Bash
-        pip install pymupdf
-   2. Configuration : Créez un fichier config.txt dans le dossier du projet et listez vos chemins (un par ligne) :
-        #Plaintext
-        /home/user/Documents
-        /mnt/Archives
-        /media/user/MaCleUSB
+### 🤝 Collaboration
+Ce projet est le fruit d'une collaboration étroite entre un développeur humain (**Jean-François**) et une Intelligence Artificielle (**Gemini**). Nous y investissons autant de temps et de ressources l'un que l'autre pour créer un outil unique et transparent.
 
-📖 Mode d'emploi (v1.0)
-   1. Lancez l'interface : python3 gindex_gui.py.
-   2. Cliquez sur Mettre à jour l'index (assurez-vous que vos disques externes sont branchés !).
-   3. Tapez votre recherche et laissez GinDex faire le reste.
+### ✨ Fonctionnalités
+* **Interface soignée** : Un design distinctif (verre de gin, loupe et sparkles).
+* **Gestion de supports** : Procédures de formatage FAT32 MBR intégrées pour une compatibilité maximale.
 
-🗺️ Roadmap (À venir)
-   - v2.0 : Intégration d'un sélecteur de dossiers visuel (filedialog) directement dans l'interface.
-   - Support de formats supplémentaires (Word, Markdown, etc.).
-   - Option de tri (par date de modification, etc.).
+### 🚀 Feuille de route (À venir)
+* Filtrage par extension (Vidéos, Documents, Tableurs).
+* Fenêtre de prévisualisation des fichiers.
+* Bouton d'indexation dédié et fichier de configuration.
+
+---
+
+## 🇺🇸 English
+**GinDex** is a fast indexing and search tool designed specifically for the **Linux Mint 22.2 (zara)** environment. Combining aesthetics with performance, it helps you find your files in a heartbeat.
+
+### 🤝 Collaboration
+This project is the result of a close collaboration between a human developer (**Jean-François**) and an Artificial Intelligence (**Gemini**). Both partners invest equal time and resources into making this tool unique and transparent.
+
+### ✨ Features
+* **Polished Interface**: A distinctive design (gin glass, magnifying glass, and sparkles).
+* **Media Management**: Integrated FAT32 MBR formatting procedures for maximum compatibility.
+
+### 🚀 Roadmap
+* Extension filtering (Videos, Documents, Spreadsheets).
+* Built-in file preview window.
+* Dedicated indexing button and configuration file.

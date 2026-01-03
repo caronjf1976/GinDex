@@ -3,15 +3,12 @@ gindex.db
 
 # Ne pas envoyer ta configuration personnelle
 config.txt
+settings.ini
 
 # Dossiers Python temporaires
 __pycache__/
 *.pyc
-# Ignorer le fichier de configuration contenant le token
-.env
-config.ini
-secrets.json
 
-# Ignorer les dossiers de dépendances (optionnel mais recommandé)
-node_modules/
-__pycache__/
+gindex_config.json
+logging
+test_borne.py

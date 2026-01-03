@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=G-Index
+Comment=Moteur de recherche local
+Exec=python3 /chemin/vers/votre/dossier/gindex_gui.py
+Path=/home/j-f/Documents/G-Index/
+Icon=system-search
+Terminal=false
+Categories=Utility;Application;
+Name[fr_CA]=GinDex
